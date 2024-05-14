@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Navbar</title>
+<!--Meta-Tag-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <nav class="navbar">
+      <div class="nav__logo">
+         <img src="Images/Logo.png">
+      </div>
+      <button class="hambar">
+        <label for="toggle" class="hambar">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+      </button>
+      <input type="checkbox" id="toggle">
+      <div class="nav__section">
+         <ul class="nav__ul">
+            <li class="nav__li">
+               <a href="#home">Home</a>
+            </li>
+            <li class="nav__li">
+                <a href="#services">Services</a>
+            </li>
+            <li class="nav__li">
+               <a href="#about">About</a>
+            </li>
+            <li class="nav__li">
+               <a href="#contact">Contact</a>
+            </li>
+         </ul>
+         <form class="search__form">
+            <input type="text" placeholder="Search...">
+            <button class="search__btn">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+         </form>
+         <div class="nav__btn">
+            <a href="#login">Login</a>
+            <a href="#signup">Sign Up</a>
+         </div>
+      </div>
+   </nav>
+</body>
+</html>
